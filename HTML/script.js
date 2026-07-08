@@ -1,0 +1,73 @@
+let name =prompt("what is your name");
+let age = Number(prompt("what is your age"));
+
+console.log(name);
+console.log(age);
+
+console.log("hello!",name);
+console.log("your age is",age);
+
+let lang =prompt("enter your fav lang");
+let exp = Number(promt("enter your experience in years"));
+
+console.log(lang);
+console.log(exp);
+
+console.log("Your fav coding language is ",lang)
+console.log("You have ",exp,"years of experience");
+
+let age=20;
+{
+
+    // if else
+
+if (age>=18)
+console.log("adulrt")
+}
+
+//for loop 
+let i = 10
+for (i=1;i<=10;i++){
+    console.log(i)
+}
+
+//while
+let i =5
+while(i>=0){
+    console.log(i);
+    i++
+
+}
+
+//functions
+function add(a,b){
+    console.log(a+b);
+}
+add(10,20);
+
+function square(num){
+    return (num**2);
+}
+console.log(square(4));
+#arrays
+let students = ["Neha", "Riya", "Rahul"];
+for (let i=0; i<students.length; i++){
+    console.log(students[i])
+}
+
+//objects:a object with all data in it 
+let laptop = {
+
+    brand: "HP",
+    ram: "16GB",
+    processor: "Intel i5"
+
+}
+console.log(laptop.brand);
+console.log(laptop.ram);
+laptop.ram="32GB";
+console.log(laptop.ram);
+laptop.warranty="1 year";
+console.log(laptop);
+
+
