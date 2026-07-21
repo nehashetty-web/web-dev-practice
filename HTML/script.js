@@ -70,7 +70,7 @@ console.log(laptop.ram);
 laptop.warranty="1 year";
 console.log(laptop);
 
-let a="neha"
-console.log(a)
+let clg="gnitc"
+console.log(clg)
 
 
