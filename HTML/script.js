@@ -72,5 +72,7 @@ console.log(laptop);
 
 let clg="gnitc"
 console.log(clg)
+let title = document.getElementById("heading");
 
+    console.log(title);
 
