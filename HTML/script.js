@@ -76,3 +76,19 @@ let title = document.getElementById("heading");
 
     console.log(title);
 
+let array=["python","sql","os","js"];
+array.forEach(function(arrays){
+    console.log(arrays);
+});
+
+let numbers = [1,2,3];
+
+let square = numbers.map(function(num){
+    return num * num;
+});
+
+console.log(square);
+
+function showmesaage(){
+    alert("hello neha");
+}
