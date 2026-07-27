@@ -92,3 +92,19 @@ console.log(square);
 function showmesaage(){
     alert("hello neha");
 }
+#events
+
+function showmessagesok(){
+    alert("welcome");
+}
+let heading=document.getElementById("heading"):
+button.addEventListener("click",function(){
+    heading.textcontent="helloo";
+})               
+
+let form=document,getElementById("my form");
+form.addEventListener("submit",function(event){
+    event.defaultPrevented();
+    console.log("submited");
+});
+
