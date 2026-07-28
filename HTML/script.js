@@ -108,3 +108,52 @@ form.addEventListener("submit",function(event){
     console.log("submited");
 });
 
+#fetchapi  
+fetch("https://jsonplaceholder.typicode.com/users")
+.then(function(response){
+    return response.json();
+})
+.then(function(data){
+    console.log(data);
+})
+.then(function(data){
+    console.log(data[0].name);
+});
+
+#es6
+const add=(a,b)=>a+b;{
+return(a+b);}
+
+console.log(3,6);
+let name = "Neha";
+
+console.log(`Hello ${name}`);
+
+let student = {
+    name: "Neha",
+    age: 20
+};
+
+let { name, age } = student;
+
+console.log(name);
+console.log(age);
+
+let arr1 = [1,2,3];
+
+let arr2 = [...arr1,4,5];
+
+console.log(arr2);
+
+
+function total(...numbers){
+    console.log(numbers);
+}
+
+total(10,20,30,40);
+
+function greet(name){
+    console.log("Hello", name);
+}
+
+greet();
