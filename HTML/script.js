@@ -164,5 +164,14 @@ async function getusers()
     let response=await fetch("URL")
     let data=await response.json();
 }
+try{
+
+}
+catch(error){
+    console.log(error);
+}
+finally{
+
+}
 
 
