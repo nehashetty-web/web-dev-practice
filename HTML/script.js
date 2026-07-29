@@ -157,3 +157,12 @@ function greet(name){
 }
 
 greet();
+
+#async
+async function getusers()
+{
+    let response=await fetch("URL")
+    let data=await response.json();
+}
+
+
