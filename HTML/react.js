@@ -48,3 +48,17 @@ function App(){
         </div>
     );
 }
+
+import {useState} from "react";
+function App(){
+    const[name,setName]=useState("Neha");
+    return(
+      <div>
+        <h1>name</h1>
+        <button onClick={()=>setName("Varsh")}>
+            change
+        </button>
+      </div>
+    );
+}
+
