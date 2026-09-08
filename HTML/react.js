@@ -62,3 +62,14 @@ function App(){
     );
 }
 
+"event and forms"
+import{ useState} from"React";
+function App(){
+    const[name,setName]=useState("neha")
+function changename(){
+    setName("varsh")
+    return(
+        <div>
+            <h1>{name}</h1>
+            <button onClick={changeName}>
+                change name
