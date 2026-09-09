@@ -73,3 +73,17 @@ function changename(){
             <h1>{name}</h1>
             <button onClick={changeName}>
                 change name
+            </button>
+        </div>
+    );
+}
+}
+"list+key"
+function App(){
+    const Students=["Neha","Varsh","anu"]
+    return(
+        <div>
+            {Students.map(Student) => (
+            <h2 key={student}>{student}</h2>))
+            </div>
+    );
