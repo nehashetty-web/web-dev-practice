@@ -99,4 +99,19 @@ return(
 
     );
 }   
+"useeffectapi"
+import{useEffect}from "react";
+function App(){
+    useEffect(()=>{
+        console.log("app opened");
+    },[]);
+    return <h1>welcome</h1>
+    }
+    "api"
+    useEffect(() => {
 
+    fetch("https://jsonplaceholder.typicode.com/users")
+        .then(response => response.json())
+        .then(data => console.log(data));
+
+}, []);
