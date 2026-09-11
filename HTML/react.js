@@ -87,3 +87,16 @@ function App(){
             <h2 key={student}>{student}</h2>))
             </div>
     );
+}
+"conditional rendering"
+function App(){
+    
+        const isLOggedin=true;
+return(
+    <div>
+    {isLOggedin ? <h1>WElcome</h1>:<h2>please login</h2>}
+    </div>
+
+    );
+}   
+
