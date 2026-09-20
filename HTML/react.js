@@ -115,3 +115,16 @@ function App(){
         .then(data => console.log(data));
 
 }, []);
+
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
+function Home() {
+  return <h1>Home</h1>;
+}
+
+function About() {
+  return <h1>About</h1>;
+}
+
+function App() {
+  return (
