@@ -140,3 +140,21 @@ function App() {
 
     </BrowserRouter>
   );
+}
+
+export default App;
+
+#contextapi
+import{createcontext}from"react";
+const usercontext=createcontex();
+
+<usercontext.provider value="Neha">
+    </navbar>
+</usercontext.provider>
+
+import{usecontext}from"react";
+const user=usecontex(usercontext);
+console.log(user);
+
+
+
