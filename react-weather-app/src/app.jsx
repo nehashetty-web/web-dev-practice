@@ -18,3 +18,13 @@ return (
   placeholder="Enter city"
   value={city}
   onChange={(e) => setCity(e.target.value)}
+/> 
+<button onClick={searchWeather}>Search</button>
+{weather && <p>Temperature: {weather.main.temp}°C</p>}
+{weather && <p>Condition: {weather.weather[0].description}</p>}
+ </div>
+);
+}
+
+
+export default App;
